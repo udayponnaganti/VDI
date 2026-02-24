@@ -1,0 +1,17 @@
+# Python and Node.js .gitignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+*.egg-info/
+
+# Node.js
+node_modules/
+npm-debug.log*
+.DS_Store
