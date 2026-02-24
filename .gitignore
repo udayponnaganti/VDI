@@ -1,17 +1,33 @@
-# Python and Node.js .gitignore
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
 *.pyo
 *.pyd
 .Python
 env/
 venv/
-.env
-*.egg-info/
+ENV/
+env.bak/
+venv.bak/
 
-# Node.js
+# Node
 node_modules/
+package-lock.json
 npm-debug.log*
+
+# Docker
+**/Dockerfile
+**/docker-compose.yml
+*.dockerignore
+**/Dockerfile.*
+**/docker-compose.override.yml
+
+# IDE
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+
+# OS-specific
 .DS_Store
+Thumbs.db
